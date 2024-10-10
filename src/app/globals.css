@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+@import url('../styles/color.css');
+@import url('../styles/neon.css');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  background-color: #FFFFFF;
+}
+
+.font-1{
+  font-family: "Plus Jakarta Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+.font-1-wi {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+.font-heading {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+}
+.font-heading-wi {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-optical-sizing: auto; 
+  font-style: normal;
+}
+/* 
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+} */
+
+/* loading.... */
+.loading {
+  --speed-of-animation: 0.9s;
+  --gap: 6px;
+  --first-color: #4c86f9;
+  --second-color: #49a84c;
+  --third-color: #f6bb02;
+  --fourth-color: #f6bb02;
+  --fifth-color: #2196f3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  gap: 6px;
+  height: 100px;
+}
+
+.loading span {
+  width: 4px;
+  height: 50px;
+  background: var(--first-color);
+  animation: scale var(--speed-of-animation) ease-in-out infinite;
+}
+
+.loading span:nth-child(2) {
+  background: var(--second-color);
+  animation-delay: -0.8s;
+}
+
+.loading span:nth-child(3) {
+  background: var(--third-color);
+  animation-delay: -0.7s;
+}
+
+.loading span:nth-child(4) {
+  background: var(--fourth-color);
+  animation-delay: -0.6s;
+}
+
+.loading span:nth-child(5) {
+  background: var(--fifth-color);
+  animation-delay: -0.5s;
+}
+
+@keyframes scale {
+
+  0%,
+  40%,
+  100% {
+    transform: scaleY(0.05);
+  }
+
+  20% {
+    transform: scaleY(1);
+  }
+}
+
+/* loading.... */
+/* scroll bar.... */
+html{
+  scroll-behavior: smooth;
+}
+html::-webkit-scrollbar{
+  width: 5px;
+}
+html::-webkit-scrollbar-thumb:hover {
+  @apply bg-[--color1] rounded-lg;
+}
+/* scroll bar.... */
+
+
+#scroll-hidden::-webkit-scrollbar{
+  display: none;
+}
+
+
+
+.menu {
+  transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+  transform: translate(-100px, -100px);
+  opacity: 0;
+}
+
+.menu-show {
+  transform: translate(0, 0);
+  opacity: 1;
+}
+
+
+/* border  */
+
+.border-1{
+  border-top: 7px solid transparent;
+  border-image: linear-gradient(to right, #BDCEBF, #A8BEB0);
+   border-image-slice: 1; 
+   border-right: 0;
+   border-bottom: 0;
+   border-left: 0;
+}
+
+.border-2{
+  border-top: 7px solid transparent;
+  border-image: linear-gradient(to right, #C1BFFF, #4840BB);
+   border-image-slice: 1;
+  /*border-radius: 10%; */
+  border-right: 0;
+  border-bottom: 0;
+  border-left: 0;
+}
+.border-3{
+  border-top: 7px solid transparent;
+  border-image: linear-gradient(to right, #8995A1, #BFC7CF);
+   border-image-slice: 1;
+  /*border-radius: 10%; */
+  border-right: 0;
+  border-bottom: 0;
+  border-left: 0;
+}
+.border-4{
+  border-top: 7px solid #F3DAC3; 
+  /*border-radius: 10%; */
+  border-right: 0;
+  border-bottom: 0;
+  border-left: 0;
+}
+
+.border-5{
+  border-top: 7px solid #B8D7E3; 
+  border-right: 0;
+  border-bottom: 0;
+  border-left: 0;
+}
+ 
+
+.border-radius-1{
+  box-shadow: 10px 10px 50px 3px
+rgba(39, 92, 141, 0.1);
+border-radius: 16px;
+}

@@ -1,0 +1,42 @@
+@keyframes neon-border-animation {
+    0% {
+      box-shadow: 0 0 5px rgba(0, 255, 255, 0.3), 0 0 15px rgba(0, 255, 255, 0.5),
+        0 0 30px rgba(0, 255, 255, 0.8), 0 0 45px rgba(0, 255, 255, 1);
+    }
+    50% {
+      box-shadow: 0 0 10px rgba(0, 255, 255, 0.5), 0 0 20px rgba(0, 255, 255, 0.8),
+        0 0 40px rgba(0, 255, 255, 1), 0 0 60px rgba(0, 255, 255, 1);
+    }
+    100% {
+      box-shadow: 0 0 5px rgba(0, 255, 255, 0.3), 0 0 15px rgba(0, 255, 255, 0.5),
+        0 0 30px rgba(0, 255, 255, 0.8), 0 0 45px rgba(0, 255, 255, 1);
+    }
+  }
+  
+  /* .neon-border {
+    position: relative;
+    border: 2px solid #4840BB;  
+    animation: neon-border-animation 2s infinite ease-in-out;
+   box-shadow: 0 0 5px rgba(0, 255, 255, 0.3), 0 0 15px rgba(0, 255, 255, 0.5),
+      0 0 30px rgba(0, 255, 255, 0.8), 0 0 45px rgba(0, 255, 255, 1); 
+    transition: box-shadow 0.2s ease-in-out;
+  } */
+
+
+  .neon-border {
+    border: 1px solid #4840BB;
+    border-radius: 0;
+    /* animation: round-border 2s ease-in-out infinite; */
+  }
+  
+  @keyframes round-border {
+    0% {
+      border-radius: 0;
+    }
+    50% {
+      border-radius: 50%;
+    }
+    100% {
+      border-radius: 0;
+    }
+  }

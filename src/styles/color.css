@@ -1,0 +1,21 @@
+:root{
+    --color1:#2F288B;
+    --color2:#82B378;
+    --color3:#F1F0FA;
+    --color4:#666666;
+    --color5:#7D75EE;
+    --color6:#E8E8FE;
+    --color7:#f8f9ff;
+    --color8:#2D2D2D; 
+    --color9:#9C9AD8;
+    --color10:#F5F3FF;
+
+    --border1:linear-gradient(270deg, ##655EB5 100%, #E6E4FB 100%, #6059B8 100%);
+    --border2:linear-gradient(180deg, #928DF0 0%, #4840BB 100%);
+}
+
+
+.color1{
+    color: var(--border2);
+}
+
