@@ -129,7 +129,7 @@ const Feature = ({ title, desc, isReverse, Icon, src }: { title: string, desc: s
      
             <Image width={1000} height={1000} className="object-center rounded object-contain transition-all duration-300  " alt={title} src={src} />
     </div>
-    <div className={`h-[410px] w-32 bg-[#F9FAFA]/[.2] bg-opacity-15 absolute   ${isReverse?'left-[55%] ':'left-[40%] bg-[#F9FAFA]/[.9]'} blur `}
+    <div className={`h-[410px] w-32 bg-[#F9FAFA]/[.2] bg-opacity-15 absolute   ${isReverse?'left-[55%] ':'left-[30%] bg-[#F9FAFA]/[.9]'} blur `}
      
     > 
 </div>
