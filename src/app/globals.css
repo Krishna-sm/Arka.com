@@ -201,3 +201,61 @@ html::-webkit-scrollbar-thumb:hover {
 rgba(39, 92, 141, 0.1);
 border-radius: 16px;
 }
+
+
+
+/* #footer{
+  position: relative; 
+} */
+/* 
+#footer::before,#footer::after{
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  background-size: cover;
+  background-position: center;
+  z-index: -1;
+}
+
+#footer::before{
+  left: 0;
+  background-image: url('/Capa_1.png');
+  content: 'dasdad';
+  clip-path: inset(0 50% 0 0);
+} */
+
+/* 
+#footer::after{
+  left: 0;
+  background-image: url('/Capa_2.png');
+  clip-path: inset(0 50% 0 0);
+} */
+
+
+.footer {
+  background-image: url('/Capa_1.png');
+  background-position: right top;
+  background-repeat: no-repeat;
+  background-size: contain; /* Adjust size as needed */
+  position: relative; /* Ensure the footer is positioned correctly */
+}
+
+.background-overlay {
+  background-image: url('/Capa_2.png');
+  background-position: left bottom;
+  background-repeat: no-repeat;
+  background-size: contain; /* Adjust size as needed */
+  opacity: 0.2; /* Set the opacity for the second image */
+  position: absolute; /* Position it absolutely within the footer */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 0; /* Behind the footer content */
+}
+
+.footer > * {
+  position: relative; /* Ensure footer content is on top */
+  z-index: 1;
+}

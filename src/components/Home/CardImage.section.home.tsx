@@ -151,7 +151,7 @@ const InvestmentCard = ({title,desc,link,src}:{title:string,desc:string,link?:st
              <div className="p-4  border-radius-1 sm:mb-0 mb-6">
           {/* <Image width={1000} height={1000} alt="content" className="object-cover bg-[#EAE9FE] object-center h-full xl:max-w-lg w-full" src={src} /> */}
         <div className="rounded-lg h-98  overflow-hidden">
-        <video ref={videoRef} autoPlay={true} playsInline loop  muted controls={false} src={src}></video>
+        <video ref={videoRef} autoPlay={true} playsInline loop  muted controls={false} className='w-full' src={src}></video>
         </div> 
               <div className="min-h-36">
               <h2 className="text-lg font-heading-wi font-[600] title-font text-gray-900  px-5 mt-5">{title}</h2>

@@ -34,7 +34,7 @@ const Header = () => {
 
   return (
     <>
-          <header className={`w-full py-4 shadow transition-all duration-300  ${mobileNav.isOpen?'sticky top-0 z-10 bg-white':''}  sticky top-0 z-[40] bg-white  lg:bg-transparent lg:backdrop-blur-md`}>
+          <header className={`w-full py-4 xl:py-6 2xl:py-8 shadow transition-all duration-300  ${mobileNav.isOpen?'sticky top-0 z-10 bg-white':''}  sticky top-0 z-[40] bg-white  lg:bg-transparent lg:backdrop-blur-md`}>
               <nav className="nav  px-10  md:px-16 xl:px-24 flex flex-row justify-between items-center">
                  <div className="flex items-center gap-x-3 md:gap-x-1">
                   <button onClick={() => dispatch(toggleNav({}))}   className={`outline-none flex  transition-all duration-300 border active:ring-2 active:ring-gray-300 rounded-full p-2 ${mobileNav.isOpen?'z-10':''} md:hidden`}>
@@ -252,11 +252,11 @@ const Header = () => {
 
                   <ul className="hidden md:flex items-center text-sm transition-all duration-300 xl:text-base gap-x-4 font-1"> 
                     
-                      <li>
+                      {/* <li>
                           <Link href={'/'} className='flex items-center justify-center gap-x-1'>
                               <GoLock className='text-[--color1] text-lg' /> Iniciar Sesión
                           </Link>
-                      </li>
+                      </li> */}
                       <li>
                           
                           <LinkButton title='Empieza Ya' link='/' />

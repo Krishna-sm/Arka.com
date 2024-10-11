@@ -100,7 +100,7 @@ const FeatureSectionHome = () => {
           <Feature Icon={Ic2} src={Features2} title='Desarrollamos un Perfil adaptado a tus necesidades únicas' desc='Invertimos los activos de nuestros usuarios en fondos ampliamente diversificado, basados en su perfil de riesgo.' />
               </SwiperSlide>
               <SwiperSlide>
-          <Feature Icon={Ic3} src={Features3}  isReverse title='Autenticación Segura y <br/> Protección Avanzada' desc='ARKA cuenta con autenticación mediante verificación de correo electrónico, número móvil y biometría.
+          <Feature Icon={Ic3} src={Features3}  isReverse title='Autenticación Segura y Protección Avanzada' desc='ARKA cuenta con autenticación mediante verificación de correo electrónico, número móvil y biometría.
 Nuestra prioridad es garantizar la máxima seguridad y protección de tu información personal.' />
               </SwiperSlide>
               

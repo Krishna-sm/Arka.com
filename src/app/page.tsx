@@ -25,22 +25,25 @@ const MainPage = () => {
         <HeroSectionHomePage/>
         <main className="px-2   md:px-10 xl:px-24">
         {/* <HeroHomeSection /> */}
-        <div id='features' className="py-20 text-center flex flex-col gap-y-5">
-          <h1 className="font-heading text-center  text-4xl md:text-6xl">Funciones</h1>
-          <p className="font-1 mx-auto  w-[98%] lg:w-[70%]">La plataforma administra tus carteras de inversión, transacciones y cuentas de la mano del futuro de la tecnología financiera, con el fin de proporcionarle a los usuarios una experiencia segura y sencilla.</p>
+        <div id='features' className="py-10 text-center flex flex-col gap-y-5">
+          <h1 className="font-heading text-center  text-4xl md:text-6xl">¿Por qué Arka?</h1>
+          <p className="font-1 mx-auto text-lg w-[98%] lg:w-[70%]">Arka utiliza la tecnología financiera para administrar tu cartera de inversión de una manera sencilla, accesible y segura. </p>
         </div>
         <FeatureSectionHome/>
 
       <div className="py-6">
       <hr />
       </div>
+      </main>
         {/* <StripeHomeSection/> */}
-        {/* <BigFrameSectionHomePage/> */}
-        <div className="py-10 text-center flex flex-col gap-y-5">
-          <p className="font-1 mx-auto tracking-wide  text-2xl w-[98%] text-center  uppercase">FONDOS SELECCIONADOS</p>
+        <BigFrameSectionHomePage/>
+        <main className="px-2   md:px-10 xl:px-24">
 
-          <h1 className="font-heading text-center text-4xl md:text-5xl">Fondos para Crecer tu Patrimonio</h1>
-          <p className="font-1 mx-auto  w-[98%] lg:w-[70%]">Democratizamos el acceso a la inversión en mercados de capitales en Estados Unidos e internacionales a través de fondos mutuos sin comisiones ocultas y con tarifas competitivas del mercado.</p>
+        <div className="pt-14 text-center flex flex-col gap-y-5">
+          {/* <p className="font-1 mx-auto tracking-wide  text-2xl w-[98%] text-center  uppercase">FONDOS SELECCIONADOS</p> */}
+
+          <h1 className="font-heading text-center text-4xl md:text-5xl">Fondos para cada apetito de riesgo</h1>
+          <p className="font-1 mx-auto  w-[98%] lg:w-[70%]">Arka hace accesible la inversión en mercados de capitales de Estados Unidos e Internacionales. Podrás invertir, desde Panamá, en fondos de inversión con comisiones bajas y sin costos ocultos. </p>
         </div>
         {/* <CardImageSectionHome/> */}
 
@@ -52,8 +55,8 @@ const MainPage = () => {
         {/* <ContactSectionHomePage/> */}
         <ContactSectionHomagePage2/>
         <div className="py-10"></div>
-        </main>
-    
+        
+    </main>
         </>
   )
 }
