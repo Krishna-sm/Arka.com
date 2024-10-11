@@ -13,14 +13,14 @@ const TrustPannelSectionHomePage = () => {
       </h1>
 
     </div>
-    <div className="lg:max-w-2xl lg:w-full md:w-1/2 w-5/6 "
+    <div className="lg:max-w-2xl lg:w-full md:w-1/2 w-full   "
         // style={{
         //   backgroundImage:'url(/bg_trust.png)',
         //   backgroundSize:'full',
-        //   backgroundRepeat:'no-repeat'
+        //   backgroundRepeat:'no-repeat'         
         // }}
     >
-      <Image width={1000} height={1000} className="object-cover object-center rounded" alt="hero" src={TrustUsersImage} />
+      <Image width={1000}  height={1000} className="object-cover  object-center rounded" alt="hero" src={TrustUsersImage} />
     </div>
   </div>
         <div className="px-5 py-5  flex flex-col gap-y-7 text-[#222222]">

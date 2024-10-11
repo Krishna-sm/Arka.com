@@ -11,7 +11,7 @@ const GetTheAppPageSectionHomePage = () => {
     <div className="lg:flex-grow md:w-1/3   flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-start px-4 ">
       {/* <h1 className="font-heading-wi sm:text-5xl font-[700] text-3xl mb-4   text-gray-900">Get The App
       </h1> */}
-      <Logo className='mx-auto md:mx-0 flex items-center w-[50%] md:w-[30%] justify-center md:justify-start' />
+      <Logo className='mx-auto md:mx-0 flex items-center w-[50%] md:w-[30%] justify-center md:justify-start py-3' />
           <p className="mb-8 leading-relaxed text-center md:text-start text-[#2D2D2D]">La aplicación está disponible en App Store y <br className="hidden md:inline-block" /> Google Play. </p>
           <h1 className="font-heading-wi font-[800] text-center  mx-auto md:mx-0 mb-4 md:text-start">Descarga el App</h1>
                  

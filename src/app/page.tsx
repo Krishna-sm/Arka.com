@@ -23,20 +23,27 @@ const MainPage = () => {
   return (
     <>
         <HeroSectionHomePage/>
+        <div className="py-10"></div>
+
         <main className="px-2   md:px-10 xl:px-24">
         {/* <HeroHomeSection /> */}
         <div id='features' className="py-10 text-center flex flex-col gap-y-5">
           <h1 className="font-heading text-center  text-4xl md:text-6xl">¿Por qué Arka?</h1>
           <p className="font-1 mx-auto text-lg w-[98%] lg:w-[70%]">Arka utiliza la tecnología financiera para administrar tu cartera de inversión de una manera sencilla, accesible y segura. </p>
-        </div>
+        </div> 
+
         <FeatureSectionHome/>
 
       <div className="py-6">
       <hr />
       </div>
       </main>
+      
+      <div className="py-10"></div>
         {/* <StripeHomeSection/> */}
         <BigFrameSectionHomePage/>
+      <div className="py-10"></div>
+
         <main className="px-2   md:px-10 xl:px-24">
 
         <div className="pt-14 text-center flex flex-col gap-y-5">
@@ -49,9 +56,15 @@ const MainPage = () => {
 
         <Suspense fallback={<LoadingComponent/>}>
           <CardImageSectionHome/>
+      <div className="py-10"></div>
+
           <GetTheAppPageSectionHomePage/>
+      <div className="py-10"></div>
+
         </Suspense>
         <TrustPannelSectionHomePage/> 
+      <div className="py-10"></div>
+
         {/* <ContactSectionHomePage/> */}
         <ContactSectionHomagePage2/>
         <div className="py-10"></div>
