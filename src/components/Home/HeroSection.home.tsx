@@ -30,10 +30,12 @@ const HeroSectionHomePage = () => {
    
       <section className="text-gray-600 body-font  ">
   <div className=" mx-auto flex  md:flex-row flex-col items-center ">
-            <div className="md:w-[60%] xl:w-[50%] py-10  lg:py-24  h-screen flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center px-2 md:px-10 xl:px-24 bg-white/20 transition-all duration-500 backdrop-blur-sm ">
-              <h1 className="title-font  text-4xl  mb-4 font-heading-wi font-[800] text-black   lg:leading-[52px]">Invierte Inteligentemente
+            <div className="md:w-[60%] xl:w-[50%] py-10  lg:py-20  h-screen flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center px-2 md:px-10 xl:px-24 bg-white/20 transition-all duration-500 backdrop-blur-sm ">
+              <h1 className="title-font  text-4xl  mb-4 font-heading-wi font-[800] text-black   lg:leading-[52px]">Invierte como los expertos, 
                
-                <br className="hidden  lg:inline-block" /> sin Esfuerzo
+                <br className="hidden  lg:inline-block" /> sin serlo Invierte de forma 
+
+                <br className="hidden  lg:inline-block" />inteligente y segur
       </h1>
               <p className="mb-4   leading-relaxed">Ofrecemos fondos de inversión con mejores rendimientos y las comisiones más competitivas del mercado para democratizar la inversión, mientras tu dinero trabaja para ti. Deja el trabajo duro a los expertos.</p>
       <div className="flex justify-center">
